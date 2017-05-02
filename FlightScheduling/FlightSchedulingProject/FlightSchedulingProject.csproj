@@ -218,6 +218,7 @@
     <Content Include="Content\ie10mobile.css" />
     <Content Include="Content\images\AngularJS-small.png" />
     <Content Include="Content\images\breezelogo.png" />
+    <Content Include="Content\images\FlightSchedulingDashboard.jpg" />
     <Content Include="Content\images\icon.png" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\toastr.css" />
