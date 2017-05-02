@@ -1,0 +1,4 @@
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\bin\Release\iAssetProject.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\bin\Release\iAssetProject.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\obj\Release\iAssetProject.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\obj\Release\iAssetProject.Core.pdb

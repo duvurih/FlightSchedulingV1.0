@@ -1,0 +1,125 @@
+﻿<section id="dashboard-view" class="mainbar" data-ng-controller="dashboard as vm">
+    <section class="matter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="today-datas">
+                        <li class="blightblue">
+                            <div class="pull-left"><i class="fa fa-plane"></i></div>
+                            <div class="datas-text pull-right">
+                                <span class="bold">{{vm.todayDateTime | date: 'MMM dd, yyyy'}}</span> Sydney, Australia
+                            </div>
+                            <div class="clearfix"></div>
+                        </li>
+
+                        <li class="borange">
+                            <div class="pull-left"><i class="fa fa-envelope"></i></div>
+                            <div class="datas-text pull-right">
+                                <span class="bold">{{vm.messageCount}}</span> Flights
+                            </div>
+                            <div class="clearfix"></div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="widget wgreen">
+                        <div data-cc-widget-header title="Gate Information (Click on gate to filter flights)"
+                             allow-collapse="true"></div>
+                        <div class="widget-content text-center text-info row">
+                            <div class="col-sm-4">
+                                <label>Filter by Date: </label>
+                            </div>
+                            <div class="col-sm-8">
+                                <mydatepicker id="searchDate" name="searchDate" ng-model="vm.formData.date" date-options="vm.dateOptions" format="dd/MM/yyyy" opened="vm.opened" min-date="" max-date="" ng-required="true"/>
+                            </div>
+                        </div>
+                        <div class="widget-content text-center text-info">
+                            <table class="table table-condensed table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Gate ID</th>
+                                        <th>Gate Name</th>
+                                        <th>Gate Location</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-ng-repeat="gate in vm.domain.gates" style="cursor:pointer" ng-click="vm.filterFlightsByGateId(gate.GateID)">
+                                        <td style="text-align:left">{{gate.GateID}}</td>
+                                        <td style="text-align:left">{{gate.GateName}}</td>
+                                        <td style="text-align:left">{{gate.GateLocation}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="widget-foot">
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="widget wviolet">
+                        <div data-cc-widget-header title="Flight Information for {{vm.selectedGateName}}"
+                             allow-collapse="true"></div>
+                        <div class="widget-content text-center text-info row">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <button type="button" class="btn btn-primary" id="btnAdd" ng-click="vm.addNewFlight()"><i class="fa fa-plus"></i>&nbsp;Add</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6" style="text-align:left">
+                                        <span class="fa fa-circle green" aria-hidden="true"> Flight scheduled at right time</span><br />
+                                    </div>
+                                    <div class="col-sm-6" style="text-align:left">
+                                        <span class="fa fa-circle red" aria-hidden="true"> Flight cancelled</span>
+                                    </div>
+                                </div>
+                                <!--<div class="row">
+                                    <div class="col-sm-6" style="text-align:left">
+                                        <span class="fa fa-circle blue" aria-hidden="true"> Flight departured at right time</span><br />
+                                    </div>
+                                    <div class="col-sm-6" style="text-align:left">
+                                        <span class="fa fa-circle violet" aria-hidden="true"> Flight re-scheduled</span>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="widget-content text-center text-info">
+                            <table class="table table-condensed table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Status</th>
+                                        <th>Flight ID</th>
+                                        <th>Flight Name</th>
+                                        <th>Arrival</th>
+                                        <th>Departure</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!--<tr data-ng-repeat="flight in vm.domain.flights | filter:{GateID:vm.filterByGateId, vm.filterByDate}">-->
+                                    <tr style="cursor:pointer" data-ng-repeat="flight in vm.domain.flights | filter: vm.filterByDate" ng-click="vm.showFlightInformation(flight.FlightID)">
+                                        <td>
+                                            <span class="fa fa-circle green" aria-hidden="true" ng-if="flight.CancellationStatus==false"></span>
+                                            <span class="fa fa-circle red" aria-hidden="true" ng-if="flight.CancellationStatus==true"></span>
+                                        </td>
+                                        <td>{{flight.FlightID}}</td>
+                                        <td>{{flight.FlightName}}</td>
+                                        <td>{{flight.ArrivalTime | date: 'dd/MM/yyyy HH:mm'}}</td>
+                                        <td>{{flight.DepartureTime | date: 'dd/MM/yyyy HH:mm'}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="widget-foot">
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

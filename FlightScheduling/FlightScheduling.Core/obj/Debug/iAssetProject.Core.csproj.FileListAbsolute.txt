@@ -1,0 +1,5 @@
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\bin\Debug\iAssetProject.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\bin\Debug\iAssetProject.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\obj\Debug\iAssetProject.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\obj\Debug\iAssetProject.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Core\obj\Debug\iAssetProject.Core.csprojResolveAssemblyReference.cache

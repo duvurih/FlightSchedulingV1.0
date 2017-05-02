@@ -1,0 +1,14 @@
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Infrastructure\bin\Debug\FlightScheduling.Infrastructure.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Infrastructure\bin\Debug\FlightScheduling.Infrastructure.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Infrastructure\bin\Debug\FlightScheduling.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Infrastructure\bin\Debug\FlightScheduling.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Infrastructure\obj\Debug\FlightScheduling.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Infrastructure\obj\Debug\FlightScheduling.Infrastructure.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Infrastructure\obj\Debug\FlightScheduling.Infrastructure.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Infrastructure\bin\Debug\FlightScheduling.Infrastructure.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Infrastructure\bin\Debug\FlightScheduling.Infrastructure.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Infrastructure\bin\Debug\FlightScheduling.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Infrastructure\bin\Debug\FlightScheduling.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Infrastructure\obj\Debug\FlightScheduling.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Infrastructure\obj\Debug\FlightScheduling.Infrastructure.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Infrastructure\obj\Debug\FlightScheduling.Infrastructure.pdb

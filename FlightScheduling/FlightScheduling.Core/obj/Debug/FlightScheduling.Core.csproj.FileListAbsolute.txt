@@ -1,0 +1,8 @@
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Core\bin\Debug\FlightScheduling.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Core\bin\Debug\FlightScheduling.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Core\obj\Debug\FlightScheduling.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\iAssetProject.Core\obj\Debug\FlightScheduling.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Core\bin\Debug\FlightScheduling.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Core\bin\Debug\FlightScheduling.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Core\obj\Debug\FlightScheduling.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\FlightScheduling\FlightScheduling.Core\obj\Debug\FlightScheduling.Core.pdb

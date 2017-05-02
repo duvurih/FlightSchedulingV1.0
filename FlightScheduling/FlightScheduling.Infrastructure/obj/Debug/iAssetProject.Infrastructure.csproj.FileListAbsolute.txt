@@ -1,0 +1,7 @@
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Infrastructure\bin\Debug\iAssetProject.Infrastructure.dll
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Infrastructure\bin\Debug\iAssetProject.Infrastructure.pdb
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Infrastructure\bin\Debug\iAssetProject.Core.dll
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Infrastructure\bin\Debug\iAssetProject.Core.pdb
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Infrastructure\obj\Debug\iAssetProject.Infrastructure.dll
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Infrastructure\obj\Debug\iAssetProject.Infrastructure.pdb
+C:\Hari\HK Sample Application\iAssetProject\iAssetProject\iAssetProject.Infrastructure\obj\Debug\iAssetProject.Infrastructure.csprojResolveAssemblyReference.cache
