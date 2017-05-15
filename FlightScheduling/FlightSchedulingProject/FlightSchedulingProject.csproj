@@ -218,8 +218,10 @@
     <Content Include="Content\ie10mobile.css" />
     <Content Include="Content\images\AngularJS-small.png" />
     <Content Include="Content\images\breezelogo.png" />
+    <Content Include="Content\images\Flight Scheduling UseCase1.png" />
     <Content Include="Content\images\FlightSchedulingDashboard.jpg" />
     <Content Include="Content\images\icon.png" />
+    <Content Include="Content\images\View Flights UseCase2.png" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
@@ -269,6 +271,7 @@
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <Content Include="Content\StartUML\FlightScheduling Usecases.mdj" />
     <None Include="Properties\PublishProfiles\Dev.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
