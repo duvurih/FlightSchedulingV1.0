@@ -31,5 +31,22 @@
 2. Repository Pattern
 3. Unit Test Coverage
 
+# Project Setup:
+1. Web  Project
+   - Bootstrap with ASP.NET MVC
+   - Bundling & Minification using BundleConfig for all CSS and JavaScript files
+   - AngularJS Setup
+      - common: common functioanlity like logging, spinner
+      - services: generic data service, directives
+      - config file in the app folder
+      - layout: setup layout files
+      - features: add folder for each feature
+2. Infrastructure Project
+   - Data Initialization: for initializing data
+   - Repositories: for actions related to Gates and Flights
+3. Core Project
+   - Model: All application specific models
+   - Interfaces: All application specific interfaces
+
 # Flight Scheduling v1.0 - Dashboard View
 ![alt text](https://github.com/duvurih/FlightSchedulingV1.0/blob/master/FlightScheduling/FlightSchedulingProject/Content/images/FlightSchedulingDashboard.jpg)
