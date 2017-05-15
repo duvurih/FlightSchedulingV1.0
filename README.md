@@ -8,6 +8,13 @@ Scope of Work:
 3. Operators should able to add new flights.
 4. Flight cancellation
 
+UseCase - Flight Scheduling:
+1. Flight Scheduling & Re-Scheduling
+![alt text](https://github.com/duvurih/FlightSchedulingV1.0/blob/master/FlightScheduling/FlightSchedulingProject/Content/images/Flight%20Scheduling%20UseCase1.png)
+
+2. Flight Status View
+![alt text](https://github.com/duvurih/FlightSchedulingV1.0/blob/master/FlightScheduling/FlightSchedulingProject/Content/images/View%20Flights%20UseCase2.png)
+
 Technology Stack:
 1. Microsoft ASP.NET MVC 5.0
 2. Microsoft .NET Framework 4.5
