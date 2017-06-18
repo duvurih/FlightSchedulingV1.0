@@ -1,6 +1,6 @@
 # FlightSchedulingV1.0
 
-#Deployed in Amazon AWS
+# Deployed in Amazon AWS
 - Application is deployed in Amazon AWS
 - URL: http://13.59.69.242/
 
