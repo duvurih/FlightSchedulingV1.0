@@ -1,5 +1,9 @@
 # FlightSchedulingV1.0
 
+#Deployed in Amazon AWS
+- Application is deployed in Amazon AWS
+- URL: http://13.59.69.242/
+
 # Scope of Work:
 1. Airport authorities should able to view all the available gates and scheduled flights
 2. Re-scheduling of flights
