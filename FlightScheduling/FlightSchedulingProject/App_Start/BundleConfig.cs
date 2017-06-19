@@ -64,7 +64,7 @@ namespace FlightSchedulingProject
                       "~/app/flight/flight.js",
                       "~/app/gate/gate.js"));
 
-            BundleTable.EnableOptimizations = false;
+            BundleTable.EnableOptimizations = true;
 
         }
     }
