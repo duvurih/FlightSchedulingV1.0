@@ -72,8 +72,8 @@
                                                     <th>Status</th>
                                                     <th>Flight ID</th>
                                                     <th>Flight Name</th>
-                                                    <th>Arrival</th>
-                                                    <th>Departure</th>
+                                                    <th class="hide-on-mobile">Arrival</th>
+                                                    <th class="hide-on-mobile">Departure</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -85,8 +85,8 @@
                                                     </td>
                                                     <td>{{flight.FlightID}}</td>
                                                     <td>{{flight.FlightName}}</td>
-                                                    <td>{{flight.ArrivalTime | date: 'dd/MM/yyyy HH:mm'}}</td>
-                                                    <td>{{flight.DepartureTime | date: 'dd/MM/yyyy HH:mm'}}</td>
+                                                    <td class="hide-on-mobile">{{flight.ArrivalTime | date: 'dd/MM/yyyy HH:mm'}}</td>
+                                                    <td class="hide-on-mobile">{{flight.DepartureTime | date: 'dd/MM/yyyy HH:mm'}}</td>
                                                 </tr>
                                             </tbody>
                                         </table>
