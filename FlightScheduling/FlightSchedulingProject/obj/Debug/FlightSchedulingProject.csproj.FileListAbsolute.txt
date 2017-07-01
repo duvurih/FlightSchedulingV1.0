@@ -200,3 +200,6 @@ C:\Hari\HK Sample Application\VersionControl\FlightSchedulingV1.0\FlightScheduli
 C:\Hari\HK Sample Application\VersionControl\FlightSchedulingV1.0\FlightScheduling\FlightSchedulingProject\obj\Debug\FlightSchedulingProject.csprojResolveAssemblyReference.cache
 C:\Hari\HK Sample Application\VersionControl\FlightSchedulingV1.0\FlightScheduling\FlightSchedulingProject\obj\Debug\FlightScheduling.dll
 C:\Hari\HK Sample Application\VersionControl\FlightSchedulingV1.0\FlightScheduling\FlightSchedulingProject\obj\Debug\FlightScheduling.pdb
+C:\Hari\HK Sample Application\VersionControl\FlightSchedulingV1.0\FlightScheduling\FlightSchedulingProject\bin\System.Web.Cors.dll
+C:\Hari\HK Sample Application\VersionControl\FlightSchedulingV1.0\FlightScheduling\FlightSchedulingProject\bin\System.Web.Http.Cors.dll
+C:\Hari\HK Sample Application\VersionControl\FlightSchedulingV1.0\FlightScheduling\FlightSchedulingProject\bin\System.Web.Http.Cors.xml

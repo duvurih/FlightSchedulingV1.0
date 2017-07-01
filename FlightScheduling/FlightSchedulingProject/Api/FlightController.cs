@@ -2,9 +2,11 @@
 using FlightScheduling.Core.Interfaces;
 using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace FlightSchedulingProject.Api
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/FlightService")]
     public class FlightController : ApiController
     {

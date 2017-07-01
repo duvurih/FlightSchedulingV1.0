@@ -6,6 +6,9 @@ namespace FlightSchedulingProject
     {
         public static void Register(HttpConfiguration config)
         {
+            // Enabling cors to access services from mobile app
+            config.EnableCors();
+
             // Web API configuration and services
 
             // Web API routes
